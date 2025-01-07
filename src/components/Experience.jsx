@@ -2,6 +2,7 @@ import { EXPERIENCES } from "../constants";
 import { motion } from "motion/react";
 const Experience = () => {
   return (
+    <section id="experience">
     <div className="border-b border-neutral-800 pb-4 ">
       <motion.h1
        whileInView={{ opacity: 1.5, y: 0 }}
@@ -44,6 +45,7 @@ const Experience = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

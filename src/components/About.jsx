@@ -1,9 +1,11 @@
+
 import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 
 const About = () => {
   return (
+    <section id="about">
     <div className="border-b border-neutral-900 pb-4">
       <motion.h1
         whileInView={{ opacity: 1, y: 0 }}
@@ -36,6 +38,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

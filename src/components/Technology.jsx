@@ -20,6 +20,7 @@ const iconVariants = (duration) => ({
 
 const Technology = () => {
   return (
+    <section id="technology">
     <motion.div
       whileInView={{ opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: -100 }}
@@ -70,6 +71,7 @@ const Technology = () => {
         </motion.div>
       </div>
     </motion.div>
+    </section>
   );
 };
 

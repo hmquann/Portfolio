@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 const Project = () => {
   return (
+    <section id="project">
     <div className="border-b border-neutral-800 pb-4 ">
       <motion.h1
         whileInView={{ opacity: 1.5, y: 0 }}
@@ -52,6 +53,7 @@ const Project = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
